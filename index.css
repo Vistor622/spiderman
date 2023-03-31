@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+     text-align: justify;
+     font-size: 18px;
+}
+body{
+    background-color: rgb(44,71,100);
+    background: linear-gradient(180deg, rgba(44,71,100,1) 15%, rgba(44,71,100,1) 25%, rgba(70,58,154,1) 39%, rgba(19,123,197,1) 49%, rgba(3,143,210,1) 55%, rgba(3,148,202,1) 60%, rgba(2,167,173,1) 71%, rgba(0,243,57,1) 85%, rgba(0,255,39,1) 100%);
+}
+.titulo{
+    margin: 50px;
+   text-align: center;
+   font-size: 48px;
+
+}
+
+.chimuelo{
+    margin: 50px;
+}
+
+.rayo{
+    margin: 50px;
+
+}
+.boss{
+    margin: 50px;
+
+}
+.flash{
+    margin: 50px;
+
+}
+.spiderman{
+    width: 120px;
+    height:"180px";
+    margin: 0;
+    display: block;
+    animation: peter 5s infinite;
+    
+
+}
+.wolf{position: absolute;
+    left: 80%;
+    top: -10px;
+
+}
+
+@keyframes peter{
+ 0%{
+    transform:translateY(-300px);
+ }   
+ 30%{
+    transform:translateY(0) rotate(5deg);
+ }   
+ 50%{
+    transform:rotate(-5deg);
+ }   
+ 75%{
+    transform:rotate(5deg);
+ }   
+ 100%{
+    transform:translateY(-250px);
+ }   
+}
